@@ -58,5 +58,9 @@ class Owner
     .each {|o| o.mood = "nervous"}
   end
   
+  def list_pets
+    self.
+  end
+  
   
 end
