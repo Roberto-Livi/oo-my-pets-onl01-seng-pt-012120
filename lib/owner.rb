@@ -55,7 +55,10 @@ class Owner
   end
   
   def sell_pets
-    cats.push(dogs.flatten!)
+    pets = cats.push(dogs.flatten!)
+    pets.each do |pet|
+      pet = "nervous"
+    end
   end
   
   
