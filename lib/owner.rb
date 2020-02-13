@@ -56,11 +56,11 @@ class Owner
   
   def sell_pets
     pets = cats + dogs
-    pets.each do |pet|
+    pets.each do |pet, array|
+      array.map do |pet|
       pet.mood = "nervous"
-    pets.map do |pet|
-      pet.pop
     end
+    array.clear
     end
     
   end
