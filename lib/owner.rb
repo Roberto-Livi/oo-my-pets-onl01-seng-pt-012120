@@ -60,7 +60,6 @@ class Owner
       array.map do |pet|
       pet.mood = "nervous"
     end
-    array.clear
     end
     
   end
