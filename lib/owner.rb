@@ -55,12 +55,9 @@ class Owner
   end
   
   def sell_pets
-    .each {|o| o.mood = "nervous"}
+    cats.push(dogs.flatten!)
   end
   
-  def list_pets
-    
-  end
   
   
 end
