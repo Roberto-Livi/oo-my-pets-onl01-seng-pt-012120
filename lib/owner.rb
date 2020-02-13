@@ -58,10 +58,11 @@ class Owner
     pets = cats + dogs
     pets.each do |pet|
       pet.mood = "nervous"
-    end
     pets.map do |pet|
       pet.pop
     end
+    end
+    
   end
   
   
