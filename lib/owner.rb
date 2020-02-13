@@ -60,7 +60,7 @@ class Owner
       pet.mood = "nervous"
     end
     pets.map do |pet|
-      pet.delete
+      pet.pop
     end
   end
   
